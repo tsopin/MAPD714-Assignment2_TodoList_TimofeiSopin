@@ -12,9 +12,12 @@
 		745BE09C1FE20BA0009248C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745BE09A1FE20BA0009248C9 /* Main.storyboard */; };
 		745BE09E1FE20BA0009248C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745BE09D1FE20BA0009248C9 /* Assets.xcassets */; };
 		745BE0A11FE20BA0009248C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745BE09F1FE20BA0009248C9 /* LaunchScreen.storyboard */; };
+		74E548FE1FE30FA200301145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74E548FD1FE30FA200301145 /* GoogleService-Info.plist */; };
+		7970345EF26B4DEDB08B843F /* Pods_MAPD714_Assignment2_TodoList_TimofeiSopin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8121F780B7C60164509F43B2 /* Pods_MAPD714_Assignment2_TodoList_TimofeiSopin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6265B757EB7C233CCF2BF3AE /* Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.debug.xcconfig"; sourceTree = "<group>"; };
 		745BE0931FE20BA0009248C9 /* MAPD714-Assignment2_TodoList_TimofeiSopin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD714-Assignment2_TodoList_TimofeiSopin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		745BE0961FE20BA0009248C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		745BE0981FE20BA0009248C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		745BE09D1FE20BA0009248C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745BE0A01FE20BA0009248C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		745BE0A21FE20BA0009248C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E548FD1FE30FA200301145 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8121F780B7C60164509F43B2 /* Pods_MAPD714_Assignment2_TodoList_TimofeiSopin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAPD714_Assignment2_TodoList_TimofeiSopin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE64082C51C72D76D2177460 /* Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7970345EF26B4DEDB08B843F /* Pods_MAPD714_Assignment2_TodoList_TimofeiSopin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127A1EF735EE6919E752485F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8121F780B7C60164509F43B2 /* Pods_MAPD714_Assignment2_TodoList_TimofeiSopin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		694E6C39FC7C6AC5343E2DB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6265B757EB7C233CCF2BF3AE /* Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.debug.xcconfig */,
+				FE64082C51C72D76D2177460 /* Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		745BE08A1FE20BA0009248C9 = {
 			isa = PBXGroup;
 			children = (
 				745BE0951FE20BA0009248C9 /* MAPD714-Assignment2_TodoList_TimofeiSopin */,
 				745BE0941FE20BA0009248C9 /* Products */,
+				694E6C39FC7C6AC5343E2DB7 /* Pods */,
+				127A1EF735EE6919E752485F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				745BE09D1FE20BA0009248C9 /* Assets.xcassets */,
 				745BE09F1FE20BA0009248C9 /* LaunchScreen.storyboard */,
 				745BE0A21FE20BA0009248C9 /* Info.plist */,
+				74E548FD1FE30FA200301145 /* GoogleService-Info.plist */,
 			);
 			path = "MAPD714-Assignment2_TodoList_TimofeiSopin";
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 745BE0A51FE20BA0009248C9 /* Build configuration list for PBXNativeTarget "MAPD714-Assignment2_TodoList_TimofeiSopin" */;
 			buildPhases = (
+				F671E9D3098D68EFB1D2391A /* [CP] Check Pods Manifest.lock */,
 				745BE08F1FE20BA0009248C9 /* Sources */,
 				745BE0901FE20BA0009248C9 /* Frameworks */,
 				745BE0911FE20BA0009248C9 /* Resources */,
+				187C3C659725D5285998F9FA /* [CP] Embed Pods Frameworks */,
+				22827451DE5355398F1F2442 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,64 @@
 			buildActionMask = 2147483647;
 			files = (
 				745BE0A11FE20BA0009248C9 /* LaunchScreen.storyboard in Resources */,
+				74E548FE1FE30FA200301145 /* GoogleService-Info.plist in Resources */,
 				745BE09E1FE20BA0009248C9 /* Assets.xcassets in Resources */,
 				745BE09C1FE20BA0009248C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		187C3C659725D5285998F9FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22827451DE5355398F1F2442 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F671E9D3098D68EFB1D2391A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAPD714-Assignment2_TodoList_TimofeiSopin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		745BE08F1FE20BA0009248C9 /* Sources */ = {
@@ -272,11 +354,13 @@
 		};
 		745BE0A61FE20BA0009248C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6265B757EB7C233CCF2BF3AE /* Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = "MAPD714-Assignment2_TodoList_TimofeiSopin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-Assignment2-TodoList-TimofeiSopin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +371,13 @@
 		};
 		745BE0A71FE20BA0009248C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE64082C51C72D76D2177460 /* Pods-MAPD714-Assignment2_TodoList_TimofeiSopin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BULHRS882;
 				INFOPLIST_FILE = "MAPD714-Assignment2_TodoList_TimofeiSopin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD714-Assignment2-TodoList-TimofeiSopin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
